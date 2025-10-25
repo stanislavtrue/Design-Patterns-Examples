@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joe_doe\\source\\repos\\Abstract Factory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{045B2D8E-675F-4CDA-8EC9-2A929431BB6B}|Abstract Factory\\Abstract Factory.csproj|c:\\users\\joe_doe\\source\\repos\\abstract factory\\abstract factory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{045B2D8E-675F-4CDA-8EC9-2A929431BB6B}|Abstract Factory\\Abstract Factory.csproj|solutionrelative:abstract factory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joe_doe\\source\\repos\\Abstract Factory\\Abstract Factory\\Program.cs",
+              "RelativeDocumentMoniker": "Abstract Factory\\Program.cs",
+              "ToolTip": "C:\\Users\\joe_doe\\source\\repos\\Abstract Factory\\Abstract Factory\\Program.cs",
+              "RelativeToolTip": "Abstract Factory\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T06:11:23.858Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

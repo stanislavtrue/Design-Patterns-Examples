@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joe_doe\\source\\repos\\Visitor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1623F2DE-0F39-499F-8804-2CAE2053818F}|Visitor\\Visitor.csproj|c:\\users\\joe_doe\\source\\repos\\visitor\\visitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1623F2DE-0F39-499F-8804-2CAE2053818F}|Visitor\\Visitor.csproj|solutionrelative:visitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joe_doe\\source\\repos\\Visitor\\Visitor\\Program.cs",
+              "RelativeDocumentMoniker": "Visitor\\Program.cs",
+              "ToolTip": "C:\\Users\\joe_doe\\source\\repos\\Visitor\\Visitor\\Program.cs*",
+              "RelativeToolTip": "Visitor\\Program.cs*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAqwC8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T12:12:02.93Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

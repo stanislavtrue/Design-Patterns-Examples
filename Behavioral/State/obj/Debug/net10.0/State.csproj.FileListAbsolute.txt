@@ -1,0 +1,14 @@
+C:\Users\joe_doe\source\repos\State\State\obj\Debug\net10.0\State.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joe_doe\source\repos\State\State\obj\Debug\net10.0\State.AssemblyInfoInputs.cache
+C:\Users\joe_doe\source\repos\State\State\obj\Debug\net10.0\State.AssemblyInfo.cs
+C:\Users\joe_doe\source\repos\State\State\obj\Debug\net10.0\State.csproj.CoreCompileInputs.cache
+C:\Users\joe_doe\source\repos\State\State\bin\Debug\net10.0\State.exe
+C:\Users\joe_doe\source\repos\State\State\bin\Debug\net10.0\State.deps.json
+C:\Users\joe_doe\source\repos\State\State\bin\Debug\net10.0\State.runtimeconfig.json
+C:\Users\joe_doe\source\repos\State\State\bin\Debug\net10.0\State.dll
+C:\Users\joe_doe\source\repos\State\State\bin\Debug\net10.0\State.pdb
+C:\Users\joe_doe\source\repos\State\State\obj\Debug\net10.0\State.dll
+C:\Users\joe_doe\source\repos\State\State\obj\Debug\net10.0\refint\State.dll
+C:\Users\joe_doe\source\repos\State\State\obj\Debug\net10.0\State.pdb
+C:\Users\joe_doe\source\repos\State\State\obj\Debug\net10.0\State.genruntimeconfig.cache
+C:\Users\joe_doe\source\repos\State\State\obj\Debug\net10.0\ref\State.dll
