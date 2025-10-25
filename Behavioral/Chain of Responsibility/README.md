@@ -10,4 +10,5 @@
 + Manager - 1000$
 + Head of Departament - 5000$
 + Director - більше 5000$
-
+## </> Результат роботи програми
+![](https://github.com/user-attachments/assets/074b22a2-7879-4296-9e9b-35af48e40443)
