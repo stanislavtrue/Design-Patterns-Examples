@@ -1,14 +1,17 @@
 ﻿using System;
 using System.Security.Authentication;
+
 class Car
 {
     public string Brand;
     public string Model;
     public DateTime ReleaseDate;
+    
     public Car ShallowCopy()
     {
         return (Car)this.MemberwiseClone();
     }
+    
     public Car DeepCopy()
     {
         Car clone = (Car)this.MemberwiseClone();
@@ -17,20 +20,24 @@ class Car
         return clone;
     }
 }
+
 class Program
 {
     static void ShowValues(Car car)
     {
         Console.WriteLine($"Brand: {car.Brand}\nModel: {car.Model}\nRelease Date: {car.ReleaseDate}");
     }
+    
     static void Main(string[] args)
     {
         Car car1 = new Car();
         car1.Brand = "Bugatti";
         car1.Model = "Veyron";
         car1.ReleaseDate = Convert.ToDateTime("2005-09-01");
+        
         Car car2 = car1.ShallowCopy();
         Car car3 = car1.DeepCopy();
+        
         Console.WriteLine("Original values of car1, car2, car3:");
         Console.WriteLine("Car 1:");
         ShowValues(car1);
