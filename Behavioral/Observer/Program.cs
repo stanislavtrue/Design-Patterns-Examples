@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace Observer;
 
 interface ISubscriber
@@ -19,6 +20,7 @@ class YouTubeChannel(string name) : IChannel
     public string Name { get; } = name;
 
     public void Subscribe(ISubscriber subscriber) => subscribers.Add(subscriber);
+    
     public void Unsubscribe(ISubscriber subscriber) => subscribers.Remove(subscriber);
 
     public void Notify(string video)
@@ -38,6 +40,7 @@ class User(string Name) : ISubscriber
     private string Name = Name;
     public void Update(string video) => Console.WriteLine($"{Name} received a notification about a new video: {video}");
 }
+
 class Program
 {
     static void Main(string[] args)
