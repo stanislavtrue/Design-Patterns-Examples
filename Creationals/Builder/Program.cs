@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+
 class Computer
 {
     public string Processor { get; set; }
@@ -10,6 +11,7 @@ class Computer
     public string PowerUnit { get; set; }
     public string CoolingSystem { get; set; }
     public string Case {  get; set; }
+    
     public void ShowInfo()
     {
         Console.WriteLine($"Processor: {Processor}");
@@ -22,6 +24,7 @@ class Computer
         Console.WriteLine($"Case: {Case}");
     }
 }
+
 interface ICompBuilder
 {
     void SetCPU();
@@ -34,6 +37,7 @@ interface ICompBuilder
     void SetCase();
     Computer GetComputer();
 }
+
 class OfficePCBuilder : ICompBuilder
 {
     private Computer computer = new Computer();
@@ -47,6 +51,7 @@ class OfficePCBuilder : ICompBuilder
     public void SetCase() => computer.Case = "Fractal North XL Dark TG Full Tower Case - Black";
     public Computer GetComputer() => computer;
 }
+
 class GamePCBuilder : ICompBuilder
 {
     private Computer computer = new Computer();
@@ -60,6 +65,7 @@ class GamePCBuilder : ICompBuilder
     public void SetCase() => computer.Case = "Lian Li Lancool 216";
     public Computer GetComputer() => computer;
 }
+
 class Director
 {
     public void Construct(ICompBuilder builder)
@@ -74,6 +80,7 @@ class Director
         builder.SetCase();
     }
 }
+
 class Program
 {
     static void Main(string[] args)
