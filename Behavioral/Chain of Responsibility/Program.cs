@@ -1,23 +1,29 @@
 ﻿using System;
+
 abstract class Approver
 {
     protected Approver? NextApprover;
+    
     public void SetNext(Approver approver)
     {
         NextApprover = approver;
     }
+
     public abstract void ProcessRequest(SalaryRequest request);
 }
+
 class SalaryRequest
 {
     public string EmployeeName { get; }
     public double Amount { get; }
+    
     public SalaryRequest(string name, double amount)
     {
         EmployeeName = name;
         Amount = amount;
     }
 }
+
 class Manager : Approver
 {
     public override void ProcessRequest(SalaryRequest request)
@@ -33,6 +39,7 @@ class Manager : Approver
         }
     }
 }
+
 class HeadDepartament : Approver
 {
     public override void ProcessRequest(SalaryRequest request)
@@ -48,6 +55,7 @@ class HeadDepartament : Approver
         }
     }
 }
+
 class Director : Approver
 {
     public override void ProcessRequest(SalaryRequest request)
@@ -55,6 +63,7 @@ class Director : Approver
         Console.WriteLine($"Director approved {request.Amount}$ raise for {request.EmployeeName}");
     }
 }
+
 class Program
 {
     static void Main(string[] args)
