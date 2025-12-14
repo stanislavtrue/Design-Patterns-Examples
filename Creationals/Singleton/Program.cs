@@ -1,8 +1,10 @@
 ﻿using System;
+
 sealed class Singleton
 {
     private Singleton() { }
     private static Singleton _instance;
+    
     public static Singleton GetInstance()
     {
         if(_instance == null)
@@ -12,6 +14,7 @@ sealed class Singleton
         return _instance;
     }
 }
+
 class Program
 {
     static void Main(string[] args)
