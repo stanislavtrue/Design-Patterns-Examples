@@ -1,8 +1,10 @@
 ﻿using System;
+
 interface IAudioPlayer
 {
     string PlayAudio();
 }
+
 class OldAudioPlayer
 {
     public string Mp3Player()
@@ -10,18 +12,22 @@ class OldAudioPlayer
         return "Sounds mp3.";
     }
 }
+
 class Adapter : IAudioPlayer
 {
     private readonly OldAudioPlayer _oldplayer;
+    
     public Adapter(OldAudioPlayer oldplayer)
     {
         this._oldplayer = oldplayer;
     }
+    
     public string PlayAudio()
     {
         return $"{this._oldplayer.Mp3Player()}";
     }
 }
+
 class Program
 {
     static void Main(string[] args)
