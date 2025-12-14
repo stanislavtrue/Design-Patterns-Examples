@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Xml.Serialization;
+
 interface ICommand
 {
     void Execute();
     void Undo();
 }
+
 class Player
 {
     public void GoLeft() => Console.WriteLine("Going left...");
@@ -12,6 +14,7 @@ class Player
     public void GoUp() => Console.WriteLine("Going up...");
     public void GoDown() => Console.WriteLine("Going down...");
 }
+
 class GoLeftCommand : ICommand
 {
     private Player _player;
@@ -19,6 +22,7 @@ class GoLeftCommand : ICommand
     public void Execute() => _player.GoLeft();
     public void Undo() => _player.GoRight();
 }
+
 class GoRightCommand : ICommand
 {
     private Player _player;
@@ -26,6 +30,7 @@ class GoRightCommand : ICommand
     public void Execute() => _player.GoRight();
     public void Undo() => _player.GoLeft();
 }
+
 class GoUpCommand : ICommand
 {
     private Player _player;
@@ -33,6 +38,7 @@ class GoUpCommand : ICommand
     public void Execute() => _player.GoUp();
     public void Undo() => _player.GoDown();
 }
+
 class GoDownCommand : ICommand
 {
     private Player _player;
@@ -40,6 +46,7 @@ class GoDownCommand : ICommand
     public void Execute() => _player.GoDown();
     public void Undo() => _player.GoUp();
 }
+
 class GameController
 {
     private ICommand _command;
@@ -47,6 +54,7 @@ class GameController
     public void PressButton() => _command.Execute();
     public void PressUndo() => _command.Undo();
 }
+
 class Program
 {
     static void Main(string[] args)
