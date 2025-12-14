@@ -49,6 +49,7 @@ class TrafficLight
         _state.Next(this);
     }
 }
+
 class Program
 {
     static void Main(string[] args)
