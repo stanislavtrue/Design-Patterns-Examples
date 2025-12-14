@@ -1,8 +1,10 @@
 ﻿using System;
+
 interface IVideo
 {
     void Play();
 }
+
 class RealVideo : IVideo
 {
     public void Play()
@@ -10,14 +12,17 @@ class RealVideo : IVideo
         Console.WriteLine("Playing the original video...");
     }
 }
+
 class ProxyVideo : IVideo
 {
     private RealVideo _realvideo;
     private string _filename;
+    
     public ProxyVideo(string filename)
     {
         this._filename = filename;
     }
+    
     public void Play()
     {
         if (_realvideo == null)
@@ -28,6 +33,7 @@ class ProxyVideo : IVideo
         _realvideo.Play();
     }
 }
+
 class Program
 {
     static void Main(string[] args)
